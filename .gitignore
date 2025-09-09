@@ -1,0 +1,8 @@
+
+# Nunca commitear claves privadas
+*.pem
+id_rsa
+id_ed25519
+*.key
+# Archivos accidentales de ssh-agent
+eval $(ssh-agent -s)*
